@@ -1,0 +1,12 @@
+[programs.localnet]
+agrostaking = "75ci5gzBz9Rn5LT2vHvSzowkBqrDjXvKpTgCaG4HHP7g"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/gigimon/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
